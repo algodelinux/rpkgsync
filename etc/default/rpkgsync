@@ -1,0 +1,30 @@
+# Defaults for rpkgsync
+#
+# See /usr/share/doc/rpkgsync/README.Debian for information about options
+# of managing pkgsync.
+
+# Activar o desactivar rpkgsync:
+#  ENABLE="yes": activa rpkgsync (opción por defecto)
+#  ENABLE="no" : desactiva rpkgsync
+#  Si no existe la variable ENABLE o no tiene valor, es equivalente al valor 'yes'.
+ENABLE="yes"
+
+# Restringimos la ejecución de pkgsync al aula especificado
+AULA="infolab01"
+
+# Dominio de los equipos
+DOMINIO="local"
+
+# Dirección IP de red
+RED="192.168.100.0"
+
+# Máscara de red
+MASCARA="22"
+
+# Puerto para escanear
+PUERTO="22"
+
+# IP's de equipos excluidos
+IGNORAR1="192.168.100.0"
+IGNORAR2="192.168.100.1"
+IGNORAR3="192.168.103.255"
